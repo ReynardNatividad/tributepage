@@ -3,12 +3,35 @@ body {
     padding: 0;
 }
 
+#main {
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+h1,h3,p,li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#img-caption {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 #img-div {
     text-align: center;
+    display: block;
 }
 
 #title {
     text-align: center;
+}
+
+#image {
+    filter: grayscale(100%);
+    display: block;
+    margin: auto;
+    max-width: 600px;
 }
 
 #tribute-link {
@@ -16,3 +39,19 @@ body {
    text-decoration: none;
 }
 
+ul {
+    width: 40%;
+    margin: auto;
+}
+
+h3 {
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+
+    #image {
+        height: 300px;
+        width: 200px;
+    }
+}
